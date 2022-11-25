@@ -1,0 +1,105 @@
+body{
+  background-color:coral;
+}
+.carousel-control-prev{
+  margin-left:5%;
+}
+.carousel-control-next{
+  margin-right:5%;
+}
+.carousel-control-prev , .carousel-control-next{
+  background-color:red;
+  margin-top:30%;
+  align-items:center;
+  height:50px;
+  width: 50px;
+  border-radius:150em;
+}
+
+.carousel-img{
+  height:90%;
+}
+
+.carousel-text{
+  position:absolute;
+  margin-left:22%;
+  bottom:10%;
+  text-align:center;
+  align-self:center;
+  background-color:white;
+  opacity:0.8;
+  border-radius:2em;
+  width:55%;
+  padding:1em;
+}
+.carousel-text > a{
+  /* opacity:0.8; */
+  padding:0.5em;
+  margin:1em;
+  border-radius:10px;
+  background-color:coral;
+  text-decoration: none;
+}
+
+#whiteBanner{
+  background-color:#A9A9A9;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+@media (max-width: 600px) {
+  #whiteBanner{
+    flex-direction:column;
+  }
+}
+
+.whiteBannerTxt{
+  margin:1em;
+  flex:1;
+  /* border: 3px solid green; */
+}
+
+.whiteBannerTxt > p{
+  font-size:1em;
+  text-align:center;
+}
+
+
+#blackBanner{
+  background-color:black;
+  display:flex;
+  /* align-items:center; */
+  justify-content:center;
+}
+@media (max-width: 800px) {
+  #blackBanner{
+    flex-direction:column;
+  }
+}
+.question{
+  color:red;
+  font-weight:800;
+  font-size:2em;
+  padding:0.5em;
+  flex:1;
+  bottom:150%;
+  /* background-color:blue; */
+}
+
+.answer{
+  background-color:whitesmoke;
+  border-radius:1em;
+  padding:3em;
+  margin:2em;
+  flex:1;
+  font-family:"Lucida Console", sans-serif;
+  /* padding:3em; */
+}
+.answer > h5{
+  color:red;
+}
+.answer > .pangti{
+  color:red;
+  font-size:2em;
+}
